@@ -1,0 +1,20 @@
+{
+  "name": "getting-started---como-publicar-o-primeiro-servidor-node-js",
+  "version": "1.0.0",
+  "description": "Aplicacao de estudo de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Aula",
+    "node",
+    "getting started"
+  ],
+  "author": "Jose-Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
