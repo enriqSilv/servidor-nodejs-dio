@@ -14,6 +14,6 @@ console.log(path.join(__dirname + "/pages/contato.html"))
 
 app.use(router)
 
-app.listen(3333, ()=>{
+app.listen(process.env.PORT || 3333, ()=>{
     console.log("servidor rodando")
 })
